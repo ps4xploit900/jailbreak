@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest">
+<!-- PS4 Jailbreak Host 9.00FW > Special Thanks to: @leeful @karo_sharifi SiSTR0 . And everyone who contributes to the scene. Website by Mouuu @_mour0ne_ -Youtube: Mouuu -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<style type="text/css">
+<!--
+.Estilo4 {
+	color: yellow;
+	font-size: 24px;
+	text-align: center;
+}
+.Estilo5 {color: #FF0000}
+-->
+</style>
+<head>
+<title>PS4 XPLOIT 900 HOST design by Mouuu</title>
+<style>
+html, body {
+ background: -webkit-linear-gradient(287deg, rgb(1, 61, 173) 0%, rgb(0, 40, 154) 100%);
+background: -o-linear-gradient(287deg, rgb(1, 61, 173) 0%, rgb(0, 40, 154) 100%);
+background: -ms-linear-gradient(287deg, rgb(1, 61, 173) 0%, rgb(0, 40, 154) 100%);
+background: -moz-linear-gradient(287deg, rgb(1, 61, 173) 0%, rgb(0, 40, 154) 100%);
+background: linear-gradient(163deg, rgb(1, 61, 173) 0%, rgb(0, 40, 154) 100%);
+background-color: #0054c4;
+background-position:absolute;
+color: white;
+text-align: center;
+margin: 0px;
+}
+h1 {
+text-shadow: 0.1em 0.1em 0.2em black;
+font-size: 25px;
+text-align: center;
+color: white;
+}
+.btn {
+background-color: #003263;
+color: white;
+width: 260px;
+height: 249px;
+padding-bottom: 5px;
+text-align: center;
+font-size: 20px;
+margin-top: 8px;
+margin-bottom: 8px;
+margin-left: 8px;
+margin-right: 8px;
+border-bottom-width: 0px;
+border-right-width: 0px;
+border-top-width: 0px;
+border-left-width: 0px;
+transition-duration: 0.4s;
+cursor: pointer;
+border-radius: 8px;
+}
+.btn:hover {
+background-color: #0058b1;
+}
+.btn-web {
+background-color: #076300;
+}
+.btn-web:hover {
+background-color: #18891b;
+}
+.btn-toolbox {
+background-color: #ae2301;
+}
+.btn-toolbox:hover {
+background-color: #d42a01;
+}
+</style><style>
+img[alt="www.000webhost.com"]{display:none;}.Estilo1 {font-size: 18px}
+.Estilo3 {font-size: 22px}
+.Estilo6 {
+	font-size: 16px;
+	color: #FFFFFF;
+}
+.Estilo9 {
+	color: yellow;
+	text-align: center;
+}
+</style>
+<script src="int64.js"></script>
+<script src="rop.js"></script>
+<script src="kexploit.js"></script>
+<script src="webkit.js"></script>
+</head>
+<body>
+<script>
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Installing Offline Cache: " + Percent + "%";}
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cache Installed Successfully ✔";},1000);setTimeout(function(){window.msgs.innerHTML="Now Close And Re-Open Your Browser ...";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+</script>
+<h1 id="msgs"><img src="../../img/title-payloads.png" width="453" height="35">9.00</h1>
+<div align="center"><p style="border: 2px solid #FCFF33; text-align:center; padding: 10px; background-color:#000000; width:919px; color: black; font-family: arial,helvetica; font-size: 16px; font-weight: bold;"><span class="Estilo1 Estilo5" style="text-align:center;">Remember:</span> <span class="Estilo4 Estilo6"><span class="Estilo9" style="color:#FFFFFF;">If the browser indicates that &quot;There is not enough free system memory&quot; it is normal, try again.</span></span></p>
+</div> 
+<br>
+<button class="btn" onclick=load_goldhen2b()> <img src="https://ps4xploit900.000webhostapp.com/img/icon-goldhen-v2-0b.png" width="199" height="199">GoldHEN 2.0b </button>
+<button class="btn" onclick=load_goldhen2b2()> <span class="btn2"><img src="https://ps4xploit900.000webhostapp.com/img/icon-goldhen-v2-0b2.png" width="199" height="199"></span>GoldHEN 2.0b2 </button>
+<button class="btn" onclick=load_binloader()> <span class="btn3"><img src="https://ps4xploit900.000webhostapp.com/img/icon-binloader.png" width="199" height="199"></span><br>
+Bin Loader </button>
+<br>
+<h1 class="Estilo4"><img src="../../img/title-payloads-2.png" width="271" height="23"></h1>
+<button class="btn btn-toolbox" onclick=load_toolbox()> <span class="btn18"><img src="https://ps4xploit900.000webhostapp.com/img/icon-orbistoolbox.png" width="199" height="199"></span><br>
+Orbis-Toolbox </button>
+<button class="btn" onclick=load_dumper()> <span class="btn2"><img src="https://ps4xploit900.000webhostapp.com/img/icon-gamedumper.png" width="199" height="199"></span><br>
+Game Dumper </button>
+<button class="btn" onclick=load_ftp()><span class="btn1"><img src="https://ps4xploit900.000webhostapp.com/img/icon-ftp.png" width="199" height="199"></span><br>
+FTP </button>
+<button class="btn" onclick=load_app2usb()> <span class="btn3"><img src="https://ps4xploit900.000webhostapp.com/img/icon-app2usb.png" width="199" height="199"></span>App2USB </button>
+<br>
+<button class="btn" onclick=load_dbackup()> <span class="btn4"><img src="https://ps4xploit900.000webhostapp.com/img/icon-bd-backup.png" width="199" height="199"></span><br>
+DB Backup </button>
+<button class="btn" onclick=load_dbrestore()> <span class="btn5"><img src="https://ps4xploit900.000webhostapp.com/img/icon-bd-restore.png" width="199" height="199"></span><br>
+DB Restore </button>
+<button class="btn" onclick=load_enablebUpdates()> <span class="btn6"><img src="https://ps4xploit900.000webhostapp.com/img/icon-updates-on.png" width="199" height="199"></span>Enable Updates </button>
+<button class="btn" onclick=load_disableUpdates()> <span class="btn7"><img src="https://ps4xploit900.000webhostapp.com/img/icon-updates-off.png" width="199" height="199"></span>Disable Updates </button>
+<br>
+<button class="btn" onclick=load_historyBlocker()> <span class="btn8"><img src="../../img/icon-history-off.png" width="199" height="199"></span>History Blocker </button>
+<button class="btn" onclick=load_kernelDump()> <span class="btn9"><img src="https://ps4xploit900.000webhostapp.com/img/icon-kernel-dumper.png" width="199" height="199"></span>Kernel Dumper </button>
+<button class="btn" onclick=load_moduleDump()> <span class="btn10"><img src="https://ps4xploit900.000webhostapp.com/img/icon-module-dumper.png" width="199" height="199"></span>Module Dumper </button>
+<button class="btn" onclick=load_ps4debug()> <span class="btn11"><img src="https://ps4xploit900.000webhostapp.com/img/icon-debug.png" width="199" height="199"></span><br>
+PS4 Debug </button>
+<br>
+<button class="btn" onclick=load_disbAslr()> <span class="btn12"><img src="https://ps4xploit900.000webhostapp.com/img/icon-aslr.png" width="199" height="199"></span>Disable ASLR </button>
+<button class="btn" onclick=load_exitidu()> <span class="btn13"><img src="https://ps4xploit900.000webhostapp.com/img/icon-idu-exit.png" width="199" height="199"></span><br>
+Exit IDU </button>
+<button class="btn" onclick=load_rifRen()> <span class="btn14"><img src="https://ps4xploit900.000webhostapp.com/img/icon-rif-renamer.png" width="199" height="199"></span><br>
+RIF Renamer </button>
+<button class="btn" onclick=load_permUart()> <span class="btn15"><img src="https://ps4xploit900.000webhostapp.com/img/icon-uart.png" width="199" height="199"></span>Permanent UART </button>
+<br>
+<button class="btn" onclick=load_webrte() style="margin-left: 75px;"> <span class="btn16"><img src="https://ps4xploit900.000webhostapp.com/img/icon-webrte.png" width="199" height="199"></span>WebRTE </button>
+<button class="btn" onclick=load_todex()> <span class="btn1"><img src="https://ps4xploit900.000webhostapp.com/img/icon-todex.png" width="199" height="199"></span>ToDex </button>
+<button class="btn" onclick=load_fanthreshold()> <span class="btn19"><img src="https://ps4xploit900.000webhostapp.com/img/icon-fan.png" width="199" height="199"></span><br>
+Fan Threshold </button>
+<select id="tempC"></select>&#176;C
+<br><h1>Send payload <img src="../../img/cargando-loading-payload.gif" width="16" height="16"> please wait ...</h1>
+<div align="center"><p style="border: 2px solid #FCFF33; text-align:center; padding: 10px; background-color:#000000; width:919px; color: black; font-family: arial,helvetica; font-size: 16px; font-weight: bold;"><span class="Estilo1 Estilo5" style="text-align:center;">Remember:</span> <span class="Estilo4 Estilo6"><span class="Estilo9" style="color:#FFFFFF;">If the browser indicates that &quot;There is not enough free system memory&quot; it is normal, try again.</span></span></p>
+</div>
+<h1 style="margin-top: 15px; color: yellow;">Special Thanks to:<a href="https://twitter.com/leeful74" target="_blank" style="color:#FFFFFF; margin-left: 15px;text-decoration: none;">@leeful</a><a href="https://twitter.com/karo_sharifi" target="_blank" style="color:#FFFFFF; margin-left: 15px;text-decoration: none;">@karo_sharifi</a><a style="color:white; margin-left: 15px;">SiSTR0 ... <span class="Estilo3">And everyone who contributes to the scene</span></a><a href="https://www.youtube.com/channel/UCtPlY2qHNNsAOlg6jQmUlXA" target="_blank" class="Estilo1" style="color:white; margin-left: 15px;text-decoration: none;">Website by Mouuu</a></h1>
+<script>
+for(var i=40; i<=79; i++){
+    var select = document.getElementById("tempC");
+    var option = document.createElement("OPTION");
+	select.options.add(option);
+	option.text = i;
+	option.value = i;
+}
+tempC.value=60;
+</script>
+<script>
+function allset(){
+setTimeout(location.reload,1000);
+alert("Payload Loaded... You will get a Memory Error, Press OK after that");
+msgs.innerHTML= LoadedMSG;
+}
+
+function awaitpl(){
+setTimeout(location.reload,1000);
+alert("Jailbreak Loaded... Now Send a Payload using the PS4 IP and port 9020");
+msgs.innerHTML="Wait a Moment...";
+}
+
+function load_goldhen2b(){
+var script = document.createElement('script');script.src = "goldhen_2.0b.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + GoldHEN v2.0b... Please Wait !!!";
+LoadedMSG="GoldHEN v2.0b Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_goldhen2b2(){
+var script = document.createElement('script');script.src = "goldhen_2.0b2.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + GoldHEN v2.0b2... Please Wait !!!";
+LoadedMSG="GoldHEN v2.0b2 Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_binloader(){
+msgs.innerHTML="Loading Jailbreak + Bin Loader... Please Wait !!!";
+run_jb = "binloader";
+setTimeout(poc,1500);
+}
+
+function load_todex(){
+var script = document.createElement('script');script.src = "todex.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + ToDex... Please Wait !!!"
+LoadedMSG="ToDex Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_dumper(){
+var script = document.createElement('script');script.src = "dumper.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + Game Dumper... Please Wait !!!"
+LoadedMSG="Game Dumper Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_ftp(){
+var script = document.createElement('script');script.src = "ftp.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + FTP... Please Wait !!!"
+LoadedMSG="FTP Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_app2usb(){
+var script = document.createElement('script');script.src = "app2usb.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + App2USB... Please Wait !!!"
+LoadedMSG="App2USB Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_dbackup(){
+var script = document.createElement('script');script.src = "backup.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + DB Backup... Please Wait !!!"
+LoadedMSG="DB Backup Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_dbrestore(){
+var script = document.createElement('script');script.src = "restore.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + DB Restore... Please Wait !!!"
+LoadedMSG="DB Restore Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_enablebUpdates(){
+var script = document.createElement('script');script.src = "enable-updates.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + Enable Updates... Please Wait !!!"
+LoadedMSG="Enable Updates Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_disableUpdates(){
+var script = document.createElement('script');script.src = "disable-updates.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + Disable Updates... Please Wait !!!"
+LoadedMSG="Disable Updates Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_historyBlocker(){
+var script = document.createElement('script');script.src = "history-blocker.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + History Blocker... Please Wait !!!"
+LoadedMSG="History Blocker Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_kernelDump(){
+var script = document.createElement('script');script.src = "kernel-dumper.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + Kernel Dumper... Please Wait !!!"
+LoadedMSG="Kernel Dumper Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_moduleDump(){
+var script = document.createElement('script');script.src = "module-dumper.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + Module Dumper... Please Wait !!!"
+LoadedMSG="Module Dumper Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_ps4debug(){
+var script = document.createElement('script');script.src = "ps4debug.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + PS4 Debug... Please Wait !!!"
+LoadedMSG="PS4 Debug Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_disbAslr(){
+var script = document.createElement('script');script.src = "disable-aslr.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + Disable ASLR... Please Wait !!!"
+LoadedMSG="Disable ASLR Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_exitidu(){
+var script = document.createElement('script');script.src = "exit-idu.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + Exit IDU... Please Wait !!!"
+LoadedMSG="Exit IDU Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_rifRen(){
+var script = document.createElement('script');script.src = "rif-renamer.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + RIF Renamer... Please Wait !!!"
+LoadedMSG="RIF Renamer Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_permUart(){
+var script = document.createElement('script');script.src = "permanent-uart.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + Permanent UART... Please Wait !!!"
+LoadedMSG="Permanent UART Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_webrte(){
+var script = document.createElement('script');script.src = "webrte.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + WebRTE... Please Wait !!!"
+LoadedMSG="WebRTE Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_fanthreshold(){
+var script = document.createElement('script');script.src = "fan-threshold.js";localStorage.setItem('fanthreshold', tempC.value);document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + Fan Threshold... Please Wait !!!"
+LoadedMSG="Fan Threshold Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_toolbox(){
+var script = document.createElement('script');script.src = "orbis-toolbox.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Jailbreak + Orbis-Toolbox... Please Wait !!!"
+LoadedMSG="Orbis-Toolbox Loaded...";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+</script>
+</body>
+</html>
