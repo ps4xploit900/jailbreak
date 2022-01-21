@@ -5,11 +5,11 @@ CACHE MANIFEST
 index.html
 cache.html
 exploit.js
-PS4/900/payload.html
+jailbreak/index.html
+jailbreak/PS4/900/payload.html
 jailbreak/9v4/
-img/background.png
-img/background.png
-img/ps4-controller.png
+jailbreak/img/background.png
+jailbreak/img/ps4-controller.png
 
 NETWORK:
 http://ps4xploit900.github.io/jailbreak/index.html
