@@ -144,11 +144,9 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cac
 <p style="border: 1px solid #FCFF33;  background-color:#000000;"> Disable ASLR</p> </button>
 <button class="btn" onclick=load_exitidu()> <span class="btn13"><img src="https://ps4xploit900.github.io/jailbreak/img/icon-idu-exit.png" width="69" height="69"></span><br>
 <p style="border: 1px solid #FCFF33;  background-color:#000000;"> Exit IDU</p> </button>
-<button class="btn" onclick=load_rifRen()> <span class="btn14"><img src="https://ps4xploit900.github.io/jailbreak/img/icon-rif-renamer.png" width="69" height="69"></span><br>
+<button class="btn" onclick=load_rifRen()> <span class="btn14"><img src="https://ps4xploit900.github.io/jailbreak/img/icon-gamedumper.png" width="69" height="69"></span><br>
 <p style="border: 1px solid #FCFF33;  background-color:#000000;"> PKG Backup</p> </button>
-<button class="btn" onclick=load_permUart()> <span class="btn15"><img src="https://ps4xploit900.github.io/jailbreak/img/icon-uart.png" width="69" height="69"></span>
-<p class="Estilo10" style="border: 1px solid #FCFF33;  background-color:#000000;"> Permanent UART</p> 
-</button>
+<br>
 <button class="btn" onclick=load_webrte() style="margin-left: 75px;"> <span class="btn16"><img src="https://ps4xploit900.github.io/jailbreak/img/icon-webrte.png" width="69" height="69"></span>
 <p style="border: 1px solid #FCFF33;  background-color:#000000;"> WebRTE</p> </button>
 <button class="btn" onclick=load_todex()> <span class="btn1"><img src="https://ps4xploit900.github.io/jailbreak/img/icon-todex.png" width="69" height="69"></span>
@@ -321,14 +319,7 @@ msgs.innerHTML="Enviando Payload + PKG Backup... Espere porfavor !!!"
 LoadedMSG="RIF Renamer Loaded...";
 run_jb = "payload";
 setTimeout(poc,1500);
-}
 
-function load_permUart(){
-var script = document.createElement('script');script.src = "permanent-uart.js";document.getElementsByTagName('head')[0].appendChild(script);
-msgs.innerHTML="Enviando Payload + Permanent UART... Espere porfavor !!!"
-LoadedMSG="Permanent UART Loaded...";
-run_jb = "payload";
-setTimeout(poc,1500);
 }
 
 function load_webrte(){
