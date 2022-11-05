@@ -169,30 +169,14 @@ tempC.value=60;
 <script>
 function allset(){
 setTimeout(location.reload,1000);
-alert("Payload Cargado... Pulsa aceptar para completar el proceso");
+alert("✔️​Payload Cargado! 🎮​ Pulsa aceptar si finalizó el proceso...");
 msgs.innerHTML= LoadedMSG;
 }
 
 function awaitpl(){
 setTimeout(location.reload,1000);
-alert("Jailbreak Loaded... Now Send a Payload using the PS4 IP and port 9020");
+alert("Jailbreak :)... Ahora envíe un Payload usando la IP de PS4 y el puerto 9020");
 msgs.innerHTML="Wait a Moment...";
-}
-
-function load_goldhen2b(){
-var script = document.createElement('script');script.src = "goldhen_2.0b.js";document.getElementsByTagName('head')[0].appendChild(script);
-msgs.innerHTML="Enviando Payload + GoldHEN v2.0b... Espere porfavor !!!";
-LoadedMSG="GoldHEN v2.0b Loaded...";
-run_jb = "payload";
-setTimeout(poc,1500);
-}
-
-function load_goldhen2b2(){
-var script = document.createElement('script');script.src = "goldhen_2.0b2.js";document.getElementsByTagName('head')[0].appendChild(script);
-msgs.innerHTML="Enviando Payload + GoldHEN v2.0b2... Espere porfavor !!!";
-LoadedMSG="GoldHEN v2.0b2 Loaded...";
-run_jb = "payload";
-setTimeout(poc,1500);
 }
 
 function load_binloader(){
