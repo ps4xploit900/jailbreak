@@ -1,4 +1,4 @@
-HenSilver 0.1
+HenSilver 0.1 ( Este XPLOIT Solo activará Debug Settings + FTP . NO es compatible con la carga de Payload. )
 
 Features:
 
