@@ -1,4 +1,4 @@
-HenSilver 0.1 ( Este XPLOIT Solo activará Debug Settings + FTP . NO es compatible con la carga de Payload. )
+HenSilver 0.1 ( Este XPLOIT Solo activará Debug Settings + FTP . Para cargar Payloads SOLO es posible con PayloadGuest PKG )
 
 Features:
 
