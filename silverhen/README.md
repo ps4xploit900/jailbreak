@@ -1,4 +1,4 @@
-HenSilver 0.1 ( Este XPLOIT Solo activará Debug Settings + FTP . Para cargar Payloads SOLO es posible con PayloadGuest PKG )
+HenSilver 0.1 ( Este XPLOIT Solo activa debug settings + fpt)
 
 Features:
 
@@ -9,6 +9,21 @@ Jailbreak
 Debug Settings
 
 Remote Package Install
+
+Massive credits to the following:
+84ciss
+qwertyoruiopz
+Specter
+flat_z
+idc
+Joonie
+Vortex
+zecoxao
+SiSTRo °/°
+SocraticBliss
+ChendoChap
+Biorn1950
+Anonymous
 
 
 
