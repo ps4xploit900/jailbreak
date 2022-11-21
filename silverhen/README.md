@@ -1,4 +1,4 @@
-HenSilver 0.1 ( Este XPLOIT Solo activa debug settings + fpt)
+HenSilver 0.1 ( Este XPLOIT Solo activa debug settings + ftp)
 
 Features:
 
