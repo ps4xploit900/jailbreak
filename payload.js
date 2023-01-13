@@ -12,7 +12,6 @@ function awaitpl2(){
       setTimeout(function(){document.getElementById('log').innerHTML ='<h1 style=color:#ebfa89>*Loading Binloader...</h1>'; }, 50);
       setTimeout(function(){document.getElementById("log").innerHTML="<h1 style=color:#ebfa89>"+LoadedMSG+"</h1>"; }, 800);
       setTimeout(ani2, 4000);
-	  
 }
 
 function awaitpl(){
@@ -26,7 +25,7 @@ function awaitpl(){
 function load_exploit(){
     document.getElementById('notify').style.display = ''
     document.getElementById('notify').className = 'notification'
-    setTimeout(function(){document.getElementById('log').innerHTML ='<h1 style=color:#ebfa89;>&nbsp;&nbsp;★ Loading Xploit + Payloads<br><br>Please Wait ...</h1>'; }, 50);
+    setTimeout(function(){document.getElementById('log').innerHTML ='<h1 style=color:#ebfa89;padding-top:7px;>★ Loading Exfathax<br>Please Wait ...</h1>'; }, 50);
     setTimeout(webkitExploit,1000);
 }
 
@@ -35,7 +34,6 @@ function load_exploit_done(){
     document.getElementById('notify').className = 'notification'
     setTimeout(function(){document.getElementById('log').innerHTML ='<h1 style=color:#ebfa89><br>*Jailbreak Loaded !!!</h1>'; }, 50);
     setTimeout(loadHomeBrew, 100);
-	
 }
 
 // Added AutoHEN
@@ -64,7 +62,6 @@ function autopl(){
 function load_bin(){
 LoadedMSG="Send A Payload To Port 9020 Now !!!";
 runBinLoader();
-
 }
 
 function load_goldhen224(){
@@ -97,52 +94,11 @@ PLfile = "goldhen2b2.bin";
 toogle_payload();
 }
 
-function load_disableupdates(){
-LoadedMSG="<br>Disable Updates Loaded !!!";
-PLfile = "disableupdates.bin";
+function load_goldhen20b(){
+LoadedMSG="<br>★GoldHEN v2.0B Loaded !!!";
+PLfile = "goldhen20b.bin";
 toogle_payload();
 }
-function load_basichen(){
-LoadedMSG="★ Basic HEN Loaded !!!";
-PLfile = "basichen.bin";
-toogle_payload();
-}
-function load_enableftp(){
-LoadedMSG="Enable FTP Loaded !!!";
-PLfile = "enableftp.bin";
-toogle_payload();
-}
-function load_app2usb(){
-LoadedMSG="Enable App 2 USB !!!";
-PLfile = "app2usb.bin";
-toogle_payload();
-}
-function load_webrte900(){
-LoadedMSG="Enable WebRTE !!!";
-PLfile = "webrte900.bin";
-toogle_payload();
-}
-function load_OrbisToolbox(){
-LoadedMSG="Enable Orbis Toolbox !!!";
-PLfile = "OrbisToolbox.bin";
-toogle_payload();
-}
-function load_backup(){
-LoadedMSG="Enable DB Backup !!!";
-PLfile = "backup.bin";
-toogle_payload();
-}
-function load_restore(){
-LoadedMSG="Enable Restore Backup !!!";
-PLfile = "restore.bin";
-toogle_payload();
-}
-function load_pkgbackup(){
-LoadedMSG="Enable PKG Backup !!!";
-PLfile = "pkgbackup.bin";
-toogle_payload();
-}
-
 function transitionPage(){
     // Hide to left / show from left
     $("#enter").toggle("slide", {direction: "left"}, 500);
@@ -156,8 +112,8 @@ $(document).ready(function() {
     $('#about-2').click(transitionPage);
 });
 
-function load_goldhen20b(){
-LoadedMSG="★GoldHEN v2.0b Loaded";
-PLfile = "goldhen20b.bin";
+function load_linux4gb(){
+LoadedMSG="★GoldHEN v2.3 Loaded";
+PLfile = "goldhen23.bin";
 toogle_payload();
 }
