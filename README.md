@@ -1,14 +1,12 @@
-PS4 Jailbreak XPLOIT goldHEN V2.3 this WEBSITE English and Spanish -  Special Thanks to: SiSTR0,leeful,karo_sharifi,ChendoChap  
-And everyone who contributes to the scene ...
+PS4 Jailbreak XPLOIT AUTO goldHEN V2.4b5 -  Special Thanks to: SiSTR0,leeful,karo_sharifi,ChendoChap  
+And everyone who contributes to contribute to scene ...
 
-HOST XPLOIT fw 9.00
+HOST XPLOIT fw 5.05 / 6.72 / 9.00
 
-v2.3
-Added Plugins support
-Added FPS counter
-Added TitleId label feature
-Added MC4 cheat format support
-Added Scanlines overlay
-Added internal pkg installation support (/data/pkg) (Thanks to OSM)
+Here is a new beta version with interesting features:
+• Added FTP Server v2.1 (Thanks to hippie68)
+• Added multi-cheat support
+• Added multi-firmware support [5.05 / 6.72 / 9.00]
+• Added package installer source settings
 
-#NEW goldHEN V2.3 by Sistr0 https://github.com/GoldHEN/GoldHEN/releases/tag/2.3?s=09#
+
