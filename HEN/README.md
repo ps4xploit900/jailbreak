@@ -1,4 +1,4 @@
-PS4 Jailbreak XPLOIT AUTO ★ Basic HEN + fake SPOOF 10.50  
+PS4 Jailbreak XPLOIT AUTO ★ Basic HEN + fake SPOOF 10.01 (random)  
 
 It is not recommended to use it, better use goldhen from sistro, this is just a free beta on the internet and I do it for fun!
 
